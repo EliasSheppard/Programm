@@ -11,7 +11,7 @@ mail = Mail()
 
 
 def create_app(config_name='default'):
-    load_dotenv('.flaskenv')
+    load_dotenv('.nova')
 
     app = Flask(__name__)
 
